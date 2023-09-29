@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Header from "../component/Header";
 import axios from "axios";
 import ProductList from "../component/productList";
+import Footer from "./footer";
 
 function Products() {
   const [data, setData] = useState({});
@@ -17,6 +18,7 @@ function Products() {
     <div>
       <Header />
       <ProductList storage={data?.productsPage?.products} />
+      <Footer />
     </div>
   );
 }

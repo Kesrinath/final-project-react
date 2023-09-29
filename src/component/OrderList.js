@@ -6,7 +6,7 @@ function OrderList({ storage }) {
     <div
       style={{
         width: "82rem",
-        height: "15rem",
+        height: "18rem",
         backgroundColor: "rgb(67,92,112)",
         marginTop: "5rem",
         marginLeft: "12rem",

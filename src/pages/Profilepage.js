@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "../component/Header";
 import "../styles/profile.css";
+import Footer from "./footer";
+import "../styles/footer.css";
 function Profilepage() {
   const options = [
     {
@@ -146,6 +148,7 @@ function Profilepage() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
